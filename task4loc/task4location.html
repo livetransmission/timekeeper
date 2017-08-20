@@ -1,0 +1,55 @@
+<link rel="stylesheet" type="text/css" href="styletask4loc.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="styletask1.css">
+
+<body>
+
+<h1 style="text-align:center;">TASK 4</h1> 
+
+<P style="text-align:center;">
+GO BACK TO 159 TERRACE
+<br>
+</P>
+<BR>
+	<P style="text-align:center;"> CHANGE THE NUMBER ON THE CELL PHONE TOWER TO "8008"
+		<BR>
+			MAIL PHOTORAPHIC EVIDENCE TO RECIEVE THE PASSWORD</P>
+
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "letmein") {
+
+window.open('../final/final.html');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="Enter Protected Area" onClick="passWord()">
+</FORM>
+</CENTER>
+<br>
+<br>
+
+
+
+
+
+</body>
+
+</body>
